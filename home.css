@@ -1,0 +1,281 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-style: oblique;
+    background-color: blanchedalmond;
+    
+    
+}
+.container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+  background-size: cover;
+    animation: animate 50s ease-in-out infinite;
+    opacity: 0.9;
+  
+}
+@keyframes animate {
+    0%,100%{
+        background-image: url(fort1.jpg);
+    }
+    20%{
+        background-image: url(dance1.jpg);
+    }
+    40%{
+        background-image: url(festival1.jpg);
+    }
+    60%{
+        background-image: url(food1.jpg);
+    }
+    80%{
+        background-image: url(sculpture3.jpg);
+    }
+   
+}
+.top{
+    font-style: oblique;
+    font-weight: bolder;
+    font-stretch: wider;
+    font-size: 22px;
+    color: black;
+    text-shadow: 1px 1px 1px white;
+}
+.heading1{
+    font-size: 60px;
+    color: black;
+    text-shadow: 4px 3px 3px white;
+    text-align: center;
+    padding-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.para1{
+    padding-top: 2px;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 32px;
+    height: 30px;
+    width: 770px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 1px 2px rgb(255, 255, 255);
+    text-align: center;
+}
+.heading2{
+    padding-top: 115px;
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+    font-style: italic;
+    color: rgb(173, 28, 156);
+    text-shadow: 1px 1px 1px whitesmoke;
+
+}
+.participate{
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+    text-shadow: 2px 2px 2px whitesmoke;
+    text-decoration: none;
+    
+}
+.participate:hover{
+    color: rgb(255, 0, 0);
+    font-size: 35px;
+    text-shadow: 2px 2px 2px whitesmoke;
+    font-weight: bolder;
+    text-decoration: underline;
+
+}
+.heading3{
+     padding-top: 5px;
+     font-style: italic;
+     font-size: 45px;
+     font-weight: bolder;
+     padding-left: 15px;
+     color: rgb(0, 0, 0);
+     text-decoration: underline;
+     text-shadow: 4px 2px 5px rgb(245, 53, 53);
+     text-align: center;
+}
+
+
+.slidercontainer{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+   
+}
+.slidercontainer .slide{
+    scroll-snap-align: start;
+}
+.slidercontainer img{
+    width: 390px;
+    height: 280px;
+    object-fit: cover;
+    padding: 4px;
+    border-radius: 25px;
+}
+.slide{
+    font-style: oblique;
+    font-size: 17px;
+    text-align: center;
+}
+.slide a:hover{
+    color: red;
+    font-size: 18px;
+}
+.freedom{
+    width: 500px;
+    height: 510px;
+    border: 4px solid #000000;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 35px;
+    box-shadow: 4px 4px 4px rgb(230, 85, 85);
+    color: red;
+    background-color: rgb(247, 215, 168);
+    
+}
+.heading4{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-style: oblique;
+    font-size: 35px;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px rgb(243, 147, 147);
+    margin-top: 5px;
+
+
+}
+/* .freedom img{
+    height: 250px;
+    width: 440px;
+    margin: 8px 30px;
+    border-radius: 15px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.fighter_inf{
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+}
+.freedom a{
+    font-size: 25px;
+    text-decoration: none;
+    color: blue;
+    
+}
+.freedom a:hover{
+    font-size: 27px;
+    text-decoration: none;
+    color: rgb(255, 4, 0);
+    text-decoration: underline;
+    
+} */
+.defence{
+    width: 500px;
+    height: 510px;
+    border: 4px solid #000000;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgb(230, 85, 85);
+    margin: 45px 0px 0px 20px;
+    color: red;
+    background-color: rgb(247, 215, 168);
+    
+    
+}
+.heading5{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-style: oblique;
+    font-size: 35px;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px rgb(243, 147, 147);
+    margin-top: 5px;
+
+}
+/* .defence_inf{
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    /* left: 20px; */
+    
+
+/* .defence img{
+    
+    right: 20px;
+    height: 250px;
+    margin: 8px 30px;
+    width: 440px; 
+    border-radius: 15px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.defence a{
+    font-size: 25px;
+    text-decoration: none;
+    color: blue;
+    
+}
+.defence a:hover{
+    font-size: 27px;
+    text-decoration: none;
+    color: rgb(255, 4, 0);
+    text-decoration: underline;
+    
+}
+.ending{
+    width: 300px;
+    margin-left: 700px;
+    margin-bottom: 0px;
+   
+} 
+ */
+ .heading3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 10px;
+    color: #000000;
+    text-shadow: 2px 2px 2px white;
+
+ }
+ .para2{
+    font-family: cursive;
+    color: #925204;
+    width: 530px;
+    padding-left: 40px;
+    font-weight: bolder;
+    font-size: 22px;
+ }
+ .dimage{
+    height: 250px;
+    width: 400px;
+    position: absolute;
+    right: 80px;
+    bottom: -850px;
+    border: 4px solid black;
+ }
+button{
+    margin-left: 230px;
+    border: 2px solid black;
+    height: 40px;
+    width: 150px;
+    background-color: #c28233;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 10px;
+}
+footer{
+    height: 50px;
+    width: 100%;
+}
+.text-center{
+    font-size: 20px;
+    
+}

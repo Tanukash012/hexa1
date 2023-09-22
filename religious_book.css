@@ -1,0 +1,177 @@
+*body{
+    background-color: #b1a581;
+}
+
+
+.heading_style {
+    color: #ffffff;
+    font-family: none;
+    font-size: 50px;
+    padding: 22px 0px 16px 2px;
+}
+
+.sub_heading {
+    font-family: none;
+    font-weight: 600;
+    padding: 45px 0px 30px 0px;
+}
+p {
+    font-family: none;
+}
+
+.art_craft img {
+    border-radius: 20px;
+    box-shadow: 15px 15px 30px -10px;
+}
+
+.art_craft p{
+    padding: 20px;
+}
+
+.relegious_book li {
+    font-family: none;
+}
+
+.relegious_book .im_div_center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.relegious_book .sub_div_center {
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+}
+
+.li_style {
+    font-size: 24px;
+    font-family: none;
+    margin: 40px 0px 0px 0px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.signature {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.signature a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #0cb9d8;
+    text-decoration: none;
+}
+
+.box-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 70px;
+    height: 400px;
+    margin-right: 20px;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+    transition: all linear 0.6s;
+}
+
+.box:last-child {
+    margin-right: 0;
+}
+
+.box::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    background: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    font-size: 20px;
+}
+
+.box:nth-child(1) i {
+    color: #ff5200;
+}
+
+.box:nth-child(2) i {
+    color: #ca470a;
+}
+
+.box:nth-child(3) i {
+    color: #00d9ff;
+}
+
+.box:nth-child(4) i {
+    color: #0077ff;
+}
+
+.box h2 {
+    position: absolute;
+    bottom: 30px;
+    left: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: #f6f6f6;
+    font-weight: 600;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+
+.box p {
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #f6f6f6;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+
+.box.active h2 {
+    opacity: 1;
+}
+
+.box.active p {
+    opacity: 1;
+}
+
+.active {
+    width: 500px;
+    transition: all linear 0.6s;
+}
+.p_style {
+    text-align: center;
+margin: 20px 0px 30px 0px;
+}
